@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.logo{
+    margin-left: -0.5rem;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.name-logo{
+    color:#fafafa;
+}

@@ -1,0 +1,12 @@
+.sidenav{
+    background-color: #FAFAFA;
+    width: 14.6rem;
+}
+
+.nav-list i{
+    padding-right: 1rem;
+}
+
+.nav-list a{
+    color: cadetblue;
+}
