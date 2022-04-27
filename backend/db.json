@@ -21,5 +21,11 @@
             "ram": "16",
             "disco": "500"
         }
+    ],
+    "technical": [
+        {
+            "id": 1,
+            "name": "Nicolas" 
+        }
     ]
 }

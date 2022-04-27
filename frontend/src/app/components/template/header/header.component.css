@@ -16,4 +16,13 @@
 
 .name-logo{
     color:#fafafa;
+    cursor: pointer;
+}
+
+.home{
+    color: #fafafa;
+    margin-left: 3.5rem;
+}
+.home a i{
+    margin-right: 0.2rem;
 }
