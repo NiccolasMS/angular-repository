@@ -1,5 +1,4 @@
 import { Router } from '@angular/router';
-import { Technician } from './../technician.model';
 import { TechnicianService } from 'src/app/components/technician/technician.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -16,7 +15,7 @@ export class TechnicianCreateComponent implements OnInit {
   }
 
   createTechnician(): void {
-    this.technicianService.showMessage('Operação feita!')
+    this.technicianService.showMessage('Técnico cadastrado!')
   }
   cancel(): void{
     this.router.navigate(['/technician'])

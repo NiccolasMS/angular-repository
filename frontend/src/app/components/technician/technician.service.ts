@@ -8,8 +8,8 @@ export class TechnicianService {
   constructor(private snackBar: MatSnackBar) { }
 
   showMessage(msg: string): void{
-    this.snackBar.open(msg, 'Fechar',{
-      duration: 1000,
+    this.snackBar.open(msg, '',{
+      duration: 1500,
       horizontalPosition: 'right',
       verticalPosition: 'top'
     })
