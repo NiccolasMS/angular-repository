@@ -1,31 +1,48 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Maquina 1",
-            "cpu": "I5",
-            "ram": "8",
-            "disco": "500"
-        },
-        {
-            "id": 2,
-            "name": "Maquina 2",
-            "cpu": "I3",
-            "ram": "4",
-            "disco": "500"
-        },
-        {
-            "id": 3,
-            "name": "Maquina 3",
-            "cpu": "I7",
-            "ram": "16",
-            "disco": "500"
-        }
-    ],
-    "technical": [
-        {
-            "id": 1,
-            "name": "Nicolas" 
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Maquina 1",
+      "cpu": "I5",
+      "ram": "8",
+      "disco": "500"
+    },
+    {
+      "id": 2,
+      "name": "Maquina 2",
+      "cpu": "I3",
+      "ram": "4",
+      "disco": "500"
+    },
+    {
+      "id": 3,
+      "name": "Maquina 3",
+      "cpu": "I7",
+      "ram": "16",
+      "disco": "500"
+    },
+    {
+      "name": "PC Gamer",
+      "price": "5.999",
+      "id": 4
+    },
+    {
+      "name": "PC Gamer Atlassian",
+      "price": "4.999",
+      "cpu": "Intel Core 7 Geração",
+      "ram": "16",
+      "disco": "1000",
+      "id": 5
+    }
+  ],
+  "technical": [
+    {
+      "id": 1,
+      "name": "Nicolas"
+    },
+    {
+      "name": "Nicolas Moreira",
+      "id": 2
+    }
+  ]
 }

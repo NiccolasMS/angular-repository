@@ -9,13 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechnicianCreateComponent implements OnInit {
 
+  technician = {
+    name: ''
+  }
+
   constructor(private technicianService: TechnicianService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
   createTechnician(): void {
-    this.technicianService.showMessage('Técnico cadastrado!')
+      this.technicianService.create(this.technician).subscribe(() =>{
+      this.technicianService.showMessage('Técnico cadastrado!')
+      this.router.navigate(['/technician'])
+    })
   }
   cancel(): void{
     this.router.navigate(['/technician'])
